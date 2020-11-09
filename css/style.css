@@ -1,0 +1,452 @@
+/*font-family: 'Inter', sans-serif;*/
+*{
+    margin: 0;
+    padding: 0;
+}
+/*---------------top-header css starts here---------------*/
+.top-header{
+    background-color: #f0f2f4;
+}
+.top-header ul{
+    list-style: none;
+    margin: 0;
+    display: flex;
+    justify-content: space-between;
+}
+.top-header ul li{
+    color: #424242;
+    font-size: 16px;
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
+}
+.top-header ul li i{
+    padding-right: 10px;
+}
+.fb{
+    color: #1287bf;
+    font-size: 25px;
+    padding: 0 !important;
+}
+/*---------------top-header css ends here---------------*/
+
+
+/*---------------navbar css starts here---------------*/
+.navbar{
+    padding: 0;
+}
+.navbar-nav .nav-item .nav-link{
+    font-size: 16px;
+    font-family: 'Inter', sans-serif;
+    font-weight: 600;
+    color: #424242;
+    padding-right: 30px;
+    transition: .4s all ease-in-out;
+}
+.navbar-nav .nav-item .nav-link:hover{
+    color: red;
+}
+.btn-danger{
+    background-color: #de2b24;
+    border-color: #de2b24;
+    color: #ffffff;
+    font-size: 16px;
+    font-family: 'Inter', sans-serif;
+    font-weight: 600;
+
+}
+.btn-danger:hover{
+    background-color: #f8cd53;
+    border-color: #f8cd53;
+}
+/*.dot{
+    height: 15px;
+    width: 15px;
+    background-color: red;
+    border-radius: 50%;
+    display: inline-block;
+}*/
+/*---------------navbar css ends here---------------*/
+
+
+/*---------------banner css starts here---------------*/
+.banner{
+    background: url(../images/banner.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover; 
+
+}
+.hg{
+    min-height: 80vh;
+}
+.title{
+    padding: 50px;
+    text-align: center;
+   
+}
+.title h1{
+    color: #ffffff;
+    font-size: 50px;
+    font-family: 'Inter', sans-serif;
+    font-weight: 600;
+    text-transform: capitalize;
+}
+.title p{
+    color: #ffffff;
+    font-size: 25px;
+    font-family: 'Inter', sans-serif;
+    font-weight: 300;
+    text-transform: capitalize;
+}
+.title a{
+    color: #ffffff;
+    text-transform: capitalize;
+}
+.btn-warning{
+    background-color: #f8cd53;
+    border-color: #f8cd53;
+    font-size: 20px;
+    padding: 10px 30px;
+    transition: .4s all ease-in-out;
+}
+.btn-warning:hover{
+    background-color: red;
+    border-color: red;
+    color: #ffffff;
+}
+/*---------------banner css ends here---------------*/
+
+
+/*---------------about-us section css starts here---------------*/
+.subtitle, .feature{
+    color: #424242;
+    font-family: 'Inter', sans-serif;
+    text-transform: capitalize;
+}
+.subtitle h1, .subtitle-different h1, .sub h1{
+    font-size: 35px;
+    font-weight: 700;
+}
+.subtitle p, .subtitle-different p, .sub p{
+    font-size: 18px;
+    font-weight: 300;
+}
+.subtitle::before{
+    content: '';
+    position: absolute;
+    bottom: -10px;
+    left: 46%;
+    width: 0px;
+    height: 4px;
+    background-color: #424242;
+    transition: .4s all ease-in-out;
+}
+.subtitle:hover::before{
+    width: 50px;
+}
+.feature h5{
+    font-size: 18px;
+    font-weight: 700;
+    padding: 30px 0 10px 0;
+}
+.feature p{
+    font-size: 16px;
+    font-weight: 300;
+}
+/*---------------about-us section css starts here---------------*/
+
+
+/*---------------our-approach section css starts here---------------*/
+.our-approach{
+    background-color: #f3f3f3;
+    padding-bottom: 50px;
+    padding-top: 30px;
+}
+.bg{
+    background-color: #ffffff;
+    
+}
+.img{
+    position: relative;
+}
+.step{
+    position: absolute;
+    top: 50%;
+    right: -50px;
+    background-color: red;
+    transform: translatey(-50%);
+    width: 100px;
+    height: 100px;
+    text-align: center;
+    border: 2px solid #ffffff;
+    border-radius: 5px;
+
+    color: #ffffff;
+    font-family: 'Inter', sans-serif;
+    text-transform: capitalize;
+}
+.step h3, .step-reverse h3{
+    font-size: 50px;
+    font-weight: 800;
+    margin: 0;
+    padding: 0;
+}
+.step p, .step-reverse p{
+    font-size: 16px;
+    font-weight: 400;
+    margin: 0;
+    padding: 0;
+}
+
+.text, .text-reverse{
+    padding: 20px 40px 0 90px;
+    color: #424242;
+    font-family: 'Inter', sans-serif;
+    text-transform: capitalize;
+}
+.text h5, .text-reverse h5{
+    font-size: 20px;
+    font-weight: 700;
+}
+.text p, .text-reverse p{
+    font-size: 16px;
+    font-weight: 300;
+}
+.text-reverse h5, .text-reverse p{
+    text-align: right;
+    padding-right: 50px;
+}
+.step-reverse{
+    position: absolute;
+    top: 50%;
+    left: -50px;
+    background-color: red;
+    transform: translatey(-50%);
+    width: 100px;
+    height: 100px;
+    text-align: center;
+    border: 2px solid #ffffff;
+    border-radius: 5px;
+
+    color: #ffffff;
+    font-family: 'Inter', sans-serif;
+    text-transform: capitalize;
+}
+/*----------------our-approach section css ends here----------------*/
+
+
+/*----------------our-work section css starts here----------------*/
+.work{
+    background-color: #de2b24;
+    padding-bottom: 80px;
+}
+.subtitle-different, .sub{
+    padding-top: 20px;
+    color: #ffffff;
+    font-family: 'Inter', sans-serif;
+    text-transform: capitalize;
+}
+.subtitle-different::before{
+    content: '';
+    position: absolute;
+    bottom: -5px;
+    left: 50%;
+    width: 0%;
+    height: 3px;
+    background-color: #ffffff;
+    transition: .4s all ease-in-out;
+}
+.subtitle-different:hover::before{
+    width: 10%;
+}
+.subtitle-different::after{
+    content: '';
+    position: absolute;
+    bottom: -5px;
+    right: 50%;
+    width: 0%;
+    height: 3px;
+    background-color: #ffffff;
+    transition: .4s all ease-in-out;
+}
+.subtitle-different:hover::after{
+    width: 10%;
+}
+.content{
+    margin: 0;
+    background-color: #f35e59;
+    color: #ffffff;
+    font-family: 'Inter', sans-serif;
+    text-transform: capitalize;
+    text-align: center;
+    padding-top: 60px;
+}
+.content i{
+    color: #f9afac;
+    font-size: 40px;
+    padding-bottom: 20px;
+}
+.content h3{
+    font-size: 28px;
+    font-weight: 700;
+}
+.content p{
+    font-size: 16px;
+    font-weight: 400;
+}
+/*----------------our-work section css ends here----------------*/
+
+
+/*----------------contact section css starts here----------------*/
+.contact{
+    background-color: #1287bf;
+    padding-bottom: 60px;
+    position: relative;
+}
+.pop-down{
+
+}
+.pop-down i{
+    
+}
+.card-body{
+    margin: 30px 0;
+}
+.card p{
+    padding: 40px 5px 10px 5px;
+    color: #828282;
+    font-family: 'Inter', sans-serif;
+    text-transform: capitalize;
+    font-size: 16px;
+    font-weight: 400;
+}
+.card form{
+    padding: 20px 120px;
+}
+.btn-icon{
+    color: #ffffff;
+    border: 2px solid #ffffff;
+    padding: 0;
+    height: 40px;
+    width: 40px;
+    line-height: 40px;
+    text-align: center;
+    border-radius: 50%;
+    font-size: 18px; 
+    margin-bottom: 20px;
+}
+.btn-icon:hover, .btn-times:hover, .btn-subscribe:hover{
+    color: #ffffff;
+}
+.btn-times{
+    position: absolute;
+    top: -15px;
+    right: -15px;
+    transform: translate(0px, 0px);
+    height: 40px;
+    width: 40px;
+    line-height: 40px;
+    text-align: center;
+    padding: 0;
+
+    border-radius: 50%;
+    color: #ffffff;
+    background-color: #de2b24;
+    border: 1px solid #ffffff;
+        
+    font-size: 16px;
+}
+.btn-submit{
+    background-color: #de2b24;
+    border-color: #de2b24;
+    color: #ffffff;
+    font-size: 16px;
+    font-family: 'Inter', sans-serif;
+    font-weight: 600;
+    border-radius: 1px;
+    margin-top: 30px;
+}
+.triangle{
+    width: 0; 
+    height: 0; 
+    border-left: 30px solid transparent;
+    border-right: 30px solid transparent;
+    border-bottom: 30px solid #ffffff;
+    
+
+    position: absolute;
+    top: -25px;
+    left: 46%;
+    transform: translate(0px, 0%);
+}
+/*-----------------contact section css ends here-----------------*/
+
+.get-in-touch{
+    background-color: #2a2a2a;
+    padding: 60px 0;
+}
+.footer-item{
+   
+}
+.footer-icon{
+    display: flex;
+    justify-content: space-between;
+    width: 50%;
+}
+
+.footer-icon i{
+    font-size: 14px;
+    color: #ffffff;
+    height: 30px;
+    height: 40px;
+    width: 40px;
+    line-height: 40px;
+    text-align: center;
+        
+    border: 2px solid #515151;
+    border-radius: 10%;
+}
+.footer-item p{
+    color: #ffffff;
+    font-size: 16px;
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
+    text-align: center;
+}
+.footer-icon i:hover{
+    border: 2px solid #de2b24;
+}
+.mail{
+    background-color: #515151;
+    text-transform: capitalize;
+    border: 1px solid #444348;
+    
+    font-family: 'Inter', sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    color: #ffffff;
+}
+.mail:hover{
+    background-color: transparent;
+}
+.btn-subscribe{
+    background-color: transparent;
+    border-color: #444348;
+    color: #ffffff;
+    font-size: 14px;
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
+    border-radius: 1px;
+    text-align: center;
+}
+.footer{
+    background-color: #515151;
+}
+.footer p{
+    color: #ffffff;
+    font-size: 14px;
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
+    padding: 20px 0;
+    text-transform: capitalize;
+}
